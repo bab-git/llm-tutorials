@@ -1,0 +1,57 @@
+# LLM Applications and Tools
+
+## Overview
+
+The goal of this repository is to provide a collection of applications that can be used with Large Language Models (LLMs). These applications serve as starting points for building advanced LLM products. The material collected here is sourced from public resources, including GitHub repositories and various courses. 
+
+As the technology evolves, some packages and tools may become outdated. However, the effort will be made to update this repository with new tools and technologies whenever possible. At the very least, these notebooks demonstrate the product-level possibilities available for leveraging LLMs.
+
+## Table of Contents
+- [Fundamentals](#fundamentals)
+- [Retrieval-Augmented Generation (RAG)](#retrieval-augmented-generation-rag)
+- [Agents and Tools](#agents-and-tools)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Fundamentals
+
+This section covers general topics related to QA, chatbots, chains, and other conversational topics with LLMs, ranging from simple to advanced.
+
+- **[Introduction and Basics of Chatbots and Conversational Agents](notebooks/Fundamentals/QA_chatbot.ipynb)**
+  - A direct API call from OpenAI to perform chat completions
+  - Chat completions with Langchain APIs
+  - Using prompt template to create custom prompt
+  - Using output parser to extract key information from the completion
+
+- **[Using memory to have an Interactive Conversational Chatbot](notebooks/Fundamentals/QA_chatbot_memory.ipynb)**
+  - Complete memory recording
+  - Window based memory
+  - Summary based memory
+
+- **[Using Langchain to generate LLM chains](notebooks/Fundamentals/llm_chains.ipynb)**
+  - Introduction to chains
+  - LLMChain and Language Execution Chain (LEC)
+  - Intermediate outputs in chains
+
+## Retrieval-Augmented Generation (RAG)
+
+This section will focuse on techniques and implementations for combining LLMs with retrieval systems to enhance performance.
+
+<!-- - **[]()**
+  -  -->
+
+
+## Agents and Tools
+
+This section will be dedicated to building and managing complex agents, tool integration, and advanced chain techniques.
+
+<!-- - **[]()**
+  -  -->
+
+## Contributing
+
+Contributions are welcome! If you have any suggestions, improvements, or new tools and technologies to add, please feel free to submit a pull request or open an issue.
+
+<!-- ## License -->
+
+<!-- This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details. -->
