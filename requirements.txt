@@ -1,6 +1,8 @@
+pandas
 ipykernel
 python-dotenv
 openai
 langchain
 langchain_community
 langchain-openai
+docarray

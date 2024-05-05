@@ -22,23 +22,35 @@ This section covers general topics related to QA, chatbots, chains, and other co
   - Chat completions with Langchain APIs
   - Using prompt template to create custom prompt
   - Using output parser to extract key information from the completion
+  - **Use Case:**
+    - Technical support as a chatbot technician.
+    - Entity extraction from cusomer travel query.
 
 - **[Using memory to have an Interactive Conversational Chatbot](notebooks/Fundamentals/QA_chatbot_memory.ipynb)**
   - Complete memory recording
   - Window based memory
   - Summary based memory
+  - **Use Case:**
+    - Technical support
+    - Customer support
+    - Healthcare consultation 
 
 - **[Using Langchain to generate LLM chains](notebooks/Fundamentals/llm_chains.ipynb)**
   - Introduction to chains
   - LLMChain and Language Execution Chain (LEC)
   - Intermediate outputs in chains
+  - **Use Case:**
+    - Patients inquiry analysis
+    - Patient symptoms categorization
 
 ## Retrieval-Augmented Generation (RAG)
 
 This section will focuse on techniques and implementations for combining LLMs with retrieval systems to enhance performance.
 
-<!-- - **[]()**
-  -  -->
+- **[Question and Answering (QA) over documents using RAG](notebooks/Retrieval_Augmented_Generation/QA_RAG_basic.ipynb)**
+  - A simple in memory RAG application using langchain based on a CSV file
+  - **Use Case:**
+    - Search and summary of clinical trials
 
 
 ## Agents and Tools
