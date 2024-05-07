@@ -1,4 +1,5 @@
 pandas
+pypdf
 ipykernel
 python-dotenv
 openai
@@ -6,3 +7,5 @@ langchain
 langchain_community
 langchain-openai
 docarray
+sentence-transformers
+chromadb
