@@ -45,13 +45,20 @@ This section covers general topics related to QA, chatbots, chains, and other co
 
 ## Retrieval-Augmented Generation (RAG)
 
-This section will focuse on techniques and implementations for combining LLMs with retrieval systems to enhance performance.
+This section focuses on techniques and implementations for combining LLMs with retrieval systems to enhance performance.
 
-- **[Question and Answering (QA) over documents using RAG](notebooks/Retrieval_Augmented_Generation/QA_RAG_basic.ipynb)**
+- **[Question and Answering (QA) over documents using RAG](notebooks/Retrieval_Augmented_Generation/RAG_basic.ipynb)**
   - A simple in memory RAG application using langchain based on a CSV file
   - **Use Case:**
     - Search and summary of clinical trials
 
+- **[# RAG application using persistent and cloud-based vector stores](notebooks/Retrieval_Augmented_Generation/RAG_vectorstores.ipynb)**
+  - Using a public embedding model from Hugging Face
+  - Applying chunking strategy for analyzing large documents
+  - Using a persistent vector store from Chroma DB
+  - A cloud-based Vector Store from Pinecone
+  - **Case Study:**
+    - Search and retrieve information from Novartis 2023 annual report.
 
 ## Agents and Tools
 
