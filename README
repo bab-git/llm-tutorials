@@ -52,13 +52,20 @@ This section focuses on techniques and implementations for combining LLMs with r
   - **Use Case:**
     - Search and summary of clinical trials
 
-- **[# RAG application using persistent and cloud-based vector stores](notebooks/Retrieval_Augmented_Generation/RAG_vectorstores.ipynb)**
+- **[RAG application using persistent and cloud-based vector stores](notebooks/Retrieval_Augmented_Generation/RAG_vectorstores.ipynb)**
   - Using a public embedding model from Hugging Face
   - Applying chunking strategy for analyzing large documents
   - Using a persistent vector store from Chroma DB
   - A cloud-based Vector Store from Pinecone
   - **Case Study:**
     - Search and retrieve information from Novartis 2023 annual report.
+  
+- **[Evaluation of Retreival Augmented Generation using QAGenerator:](notebooks/Retrieval_Augmented_Generation/RAG_evaluation.ipynb)**
+  - Using QAGenerator to have ground truth samples for QA-applications
+  - Evaluating QA-based RAG using QAGeneratorChain and QAEvalChain
+  - **Case Study:** Amazon Product Catalog
+
+
 
 ## Agents and Tools
 
