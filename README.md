@@ -1,4 +1,4 @@
-# LLM Applications and Tools
+# LLM Tutorials and Applications
 
 ## Overview
 
@@ -97,7 +97,7 @@ Retrieval-Augmented Generation (RAG) is a powerful technique that combines the s
 
 Large Language Model (LLM) agents are crucial for creating dynamic, interactive, and context-aware applications. These agents can handle complex tasks by understanding and generating human-like text, making them invaluable in automating processes, providing intelligent responses, and integrating with various tools and services to perform specific actions. By leveraging LLM agents, developers can build robust applications that offer enhanced user experiences and operational efficiencies.
 
-- **[Agent-Based Application of Large Language Models](notebooks/Agents/llm_agents_basics.ipynb)**
+- **[Agent-Based Application of Large Language Models](notebooks/Agents_and_Tools/llm_agents_basics.ipynb)**
   - An LLM agent that calls a single Python interpreter tool
   - A ReAct-based LLM agent that uses two built-in tools, a calculator and a Wikipedia search
   - User-defined agent and its tools
