@@ -14,6 +14,7 @@ As the technology evolves, some packages and tools may become outdated. However,
 - [License](#license)
 
 ## Fundamentals
+The Fundamentals section covers the essential concepts and techniques for working with Large Language Models (LLMs). This section provides a solid foundation for understanding and utilizing LLMs, including topics such as chatbots, conversational agents, chains, prompt templates, and output parsers. By exploring these basics, you will gain the necessary skills to build simple to advanced applications that leverage the power of LLMs for various conversational tasks and QA systems.
 
 This section covers general topics related to QA, chatbots, chains, and other conversational topics with LLMs, ranging from simple to advanced.
 
@@ -42,8 +43,15 @@ This section covers general topics related to QA, chatbots, chains, and other co
   - **Use Case:**
     - Patients inquiry analysis
     - Patient symptoms categorization
+  
+- **Comming soon:**
+  - Using few shot chains to instruct LLMs
+  - Numerical evaluation metrics: BLUE, ROUGE, METEOR, CER
+
 
 ## Retrieval-Augmented Generation (RAG)
+
+Retrieval-Augmented Generation (RAG) is a powerful technique that combines the strengths of information retrieval and natural language generation. By integrating retrieval mechanisms with LLMs, RAG can access and utilize vast amounts of external knowledge, enabling the generation of more accurate, contextually relevant, and informative responses. This approach is particularly useful for tasks requiring up-to-date information, detailed explanations, or specific data points, significantly enhancing the capabilities and performance of LLM-based applications.
 
 This section focuses on techniques and implementations for combining LLMs with retrieval systems to enhance performance.
 
@@ -64,15 +72,25 @@ This section focuses on techniques and implementations for combining LLMs with r
   - Using QAGenerator to have ground truth samples for QA-applications
   - Evaluating QA-based RAG using QAGeneratorChain and QAEvalChain
   - **Case Study:** Amazon Product Catalog
-
+  
+- **Comming Soon:**
+  - Ranking retrieved documents using similarity scores
+  - Using UMAP to visualize retrieved documents similarity
+  - Window-based, Hierarchical retrieval, and MAP-RERANK to expand input length of RAG pipelines
+  - Graph RAG
 
 
 ## Agents and Tools
+Large Language Model (LLM) agents are crucial for creating dynamic, interactive, and context-aware applications. 
+These agents can handle complex tasks by understanding and generating human-like text, making them invaluable in automating processes, providing intelligent responses, and integrating with various tools and services to perform specific actions. 
+By leveraging LLM agents, developers can build robust applications that offer enhanced user experiences and operational efficiencies.  
 
-This section will be dedicated to building and managing complex agents, tool integration, and advanced chain techniques.
+This section is dedicated to building and managing complex agents, tool integration, and advanced chain techniques.
 
-<!-- - **[]()**
-  -  -->
+- **[Agent-based application of Large Language Models](notebooks/Agents/llm_agents_basics.ipynb)**
+  - An LLM agent that calls a single python interpreter tool.
+  - A ReAct based LLM agent that uses two built-in tools, a calculator and a wikipedia search.
+  - User defined agent and its tools
 
 ## Contributing
 

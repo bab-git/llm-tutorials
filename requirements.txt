@@ -10,3 +10,8 @@ docarray
 sentence-transformers
 chromadb
 pinecone
+wikipedia
+numexpr
+langchain_experimental
+langchainhub
+langgraph
