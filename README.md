@@ -103,8 +103,15 @@ Large Language Model (LLM) agents are crucial for creating dynamic, interactive,
   - User-defined agent and its tools
 
 ## Installation
+First, clone the repository:
+```bash
+git clone https://github.com/bab-git/llm-tutorials.git
 
-To install the necessary packages, you can use the provided `requirements.txt` file. Run the following command:
+cd llm-tutorials
+```
+
+Then install the dependencies:
+Here, we use the provided `requirements.txt` file. But for more complex applications use poetry to install the dependencies.
 
 ```bash
 pip install -r requirements.txt
@@ -122,9 +129,12 @@ Make sure you have the following dependencies installed:
 - Python 3.8 or higher
 - pip
 
-## Contributing
+## Secrets
+You need to set a few API keys as environment variables to use Openai, Pinecone, Hugging Face, and Tavily via API calls.
 
-Contributions are welcome! If you have any suggestions, improvements, or new tools and technologies to add, please feel free to submit a pull request or open an issue.
+For the above services you also need to create the relevant accounts on their websites.
+
+Using LangSmith (and adding its env variables) is optional, but it is highly recommended for training and development purposes.  
 
 ## License
 
